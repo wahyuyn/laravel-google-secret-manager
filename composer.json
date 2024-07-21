@@ -1,5 +1,5 @@
 {
-    "name": "why2ez/larvel-google-secret-manager",
+    "name": "wyn/larvel-google-secret-manager",
     "description": "Manage environment secrets using Google Secrets Manager (GSM).",
     "type": "library",
     "autoload": {
@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\GoogleSecretManager\\GoogleSecretManagerServiceProvider"
+                "Wyn\\GoogleSecretManager\\GoogleSecretManagerServiceProvider"
             ]
         }
     }
