@@ -4,10 +4,17 @@
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Vendor\\MyPackage\\": "src/"
+            "Vendor\\GoogleSecretManager\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/wahyuyn/larvel-google-secret-manager"
+        }
+    ],
     "require": {
+        "php": "^7.3|^8.0",
         "google/cloud-secret-manager": "^1.15"
     },
     "license": "MIT",
@@ -21,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vendor\\MyPackage\\GcpSecretManagerServiceProvider"
+                "Vendor\\GoogleSecretManager\\GoogleSecretManagerServiceProvider"
             ]
         }
     }
