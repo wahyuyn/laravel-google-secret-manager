@@ -7,13 +7,13 @@ A Laravel package to manage and integrating environment secrets using Google Sec
 You can install the package via composer:
 
 ```bash
-composer require Wyn/laravel-google-secret-manager
+composer require wyn/laravel-google-secret-manager
 ```
 
 Publish Config:
 
 ```bash
-php artisan vendor:publish --provider="Wyn\GoogleSecretManager\SecretManagerServiceProvider"
+php artisan vendor:publish --provider="wyn\GoogleSecretManager\GoogleSecretManagerServiceProvider"
 ```
 
 ## Configuration
