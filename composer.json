@@ -1,0 +1,28 @@
+{
+    "name": "why2ez/larvel-google-secret-manager",
+    "description": "Manage environment secrets using Google Secrets Manager (GSM).",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\MyPackage\\": "src/"
+        }
+    },
+    "require": {
+        "google/cloud-secret-manager": "^1.15"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wahyu",
+            "email": "wahyu.yn15@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vendor\\MyPackage\\GcpSecretManagerServiceProvider"
+            ]
+        }
+    }
+}
