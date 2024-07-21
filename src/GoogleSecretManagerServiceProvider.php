@@ -1,6 +1,6 @@
 <?php
 
-namespace Vendor\GoogleSecretManagerServiceProvider;
+namespace Vendor\GoogleSecretManager;
 
 use Illuminate\Support\ServiceProvider;
 
