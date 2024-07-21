@@ -1,6 +1,6 @@
 # Laravel - Google Secret Manager
 
-A Laravel package to manage and integrating environment secrets using Google Secrets Manager (GSM)..
+A Laravel package to manage and integrating environment secrets using Google Secrets Manager (GSM)
 
 ## Installation
 
@@ -39,7 +39,6 @@ Ensure your application has access to your Google Cloud credentials. You can set
 
 ```
 GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/service-account-file.json
-
 ```
 
 ## Usage
