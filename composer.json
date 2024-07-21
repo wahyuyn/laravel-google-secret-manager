@@ -28,7 +28,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "vendor\\GoogleSecretManager\\GoogleSecretManagerServiceProvider"
+                "Vendor\\GoogleSecretManager\\GoogleSecretManagerServiceProvider"
             ]
         }
     }
